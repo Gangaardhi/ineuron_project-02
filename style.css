@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Red Rose", cursive;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+/*body {
+  height: 100vh;
+  width: 100vw;
+  background: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);                                        
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  
+  background-image:  linear-gradient(
+    to bottom,
+    hsla(60, 23%, 94%, 0.502),
+    hsla(240, 37%, 93%, 0.502)
+  ), url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+ 
+
+}
+*/
+body * {
+  z-index:10;
+}
+
+ body {
+    height: 100vh;
+    width: 100vw;
+    background: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    object-fit: cover;
+
+  
+}
+
+
+
+
+/*.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
+}*/
+
+
+body::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%; 
+  background:#34394c;
+  opacity: 0.8;
+  
+}
+
+
+.container {
+  margin-top:10px;
+  height: 100%;
+  
+}
+
+.navbar {
+  display: flex;
+  margin: 30px;
+  top: 30px;
+  
+}
+
+div > img {
+ position: relative;
+ left: 70px;
+ width: 130px;
+ 
+}
+
+.list {
+  position: relative;
+  left: 100px;
+  list-style-type: none;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  
+  
+}
+
+.list-item:nth-child(1) {
+  position: absolute;
+  left: 200px;
+  width: 200px;
+  
+}
+
+
+.list-item:nth-child(2) {
+  position: absolute;
+  left: 420px;
+  
+}
+
+
+.list-item:nth-child(3) {
+  position: absolute;
+  left: 540px;
+  
+}
+
+
+.list-item:nth-child(4) {
+  position: absolute;
+  left: 680px;
+  
+}
+
+.button-small {
+  position: absolute;
+  right: 120px;
+  padding: 5px 40px;
+  background: darksalmon;
+  color: white;
+  font-size: 20px;
+}
+
+.hero {
+  position: relative;
+  left: 120px;
+  align-items: center;
+  top: 10px;
+}
+
+.hero-heading {
+  position: absolute;
+  font-size: 120px;
+  width: 1200px;
+  left: 70px;
+  text-align: center;
+  text-align-last: center;
+  word-wrap: break-word;
+  color:#F7CD2E ;
+  
+  
+  
+}
+
+.button-large {
+  position:relative;
+  left: 480px;
+  top: 500px;
+  width: 350px;
+  padding: 15px 30px;
+  align-items:center;
+  background: #D9D55B;
+  color: white;
+  font-size: 20px;
+}
+
+.bottom {
+  position:relative;
+  right:10px;
+  top: 2px;
+  
+}
+
+img[alt="bottom-logo"] {
+  position: relative;
+  left: 1000px;
+  top: 450px;
+  width: 150px;
+}
